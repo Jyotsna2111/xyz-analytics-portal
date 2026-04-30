@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Components/SideBar";
 
-import Home from "./pages/Home";
-import Sales from "./pages/Sales";
-import Quality from "./pages/Quality";
-import About from "./pages/About";
+import Home from "./Pages/Home";
+import Sales from "./Pages/Sales";
+import Quality from "./Pages/Quality";
+import About from "./Pages/About";
 
 function App() {
   return (

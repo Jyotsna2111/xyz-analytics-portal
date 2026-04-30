@@ -1,4 +1,4 @@
-import TableauEmbed from "../components/TableauEmbed";
+import TableauEmbed from "../Components/TableauEmbed";
 
 function Sales() {
 
