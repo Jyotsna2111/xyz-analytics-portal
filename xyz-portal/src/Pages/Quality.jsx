@@ -3,7 +3,7 @@ import TableauEmbed from "../Components/TableauEmbed";
 function Quality() {
 
   const qualityUrl =
-    "https://public.tableau.com/views/XYZ_retail_chain_quality4/Dashboard2?:showVizHome=no";
+   "https://public.tableau.com/views/XYZ_quality/Dashboard3?:showVizHome=no";
 
   return (
     <div>
