@@ -1,16 +1,141 @@
-# React + Vite
+# XYZ Retail Analytics Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+The XYZ Retail Analytics Portal is a web-based analytics solution developed using React and Tableau Public.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portal provides business insights related to:
 
-## React Compiler
+* Sales performance
+* Outlet comparison
+* Quality metrics
+* Operational trends
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of the project is to provide a centralized and interactive analytics experience for leadership teams.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Features
+
+## Sales Dashboard
+
+* Monthly sales trends
+* Outlet-wise sales comparison
+* KPI cards
+* Interactive filtering
+
+## Quality Dashboard
+
+* Quality score tracking
+* Defect and incident analysis
+* Outlet quality comparison
+* Trend analysis
+
+## Web Application
+
+* React-based frontend
+* Sidebar navigation
+* Embedded Tableau dashboards
+* Responsive design
+* Consistent branding
+
+---
+
+# Technologies Used
+
+* React
+* React Router
+* Tailwind CSS
+* Tableau Public
+* Vite
+* Vercel
+
+---
+
+# Tableau Public Links
+
+## Sales Dashboard
+
+(https://public.tableau.com/views/XYZ_retail_chain_sales2/Dashboard1?:showVizHome=no)
+
+## Quality Dashboard
+
+("https://public.tableau.com/views/XYZ_retail_chain_quality4/Dashboard2?:showVizHome=no")
+
+---
+
+# Project Structure
+
+```bash
+src/
+ ├── components/
+ │     ├── Sidebar.jsx
+ │     └── TableauEmbed.jsx
+ │
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── Sales.jsx
+ │     ├── Quality.jsx
+ │     └── About.jsx
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+# How To Run Locally
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# Deployment
+
+The frontend application is deployed using Vercel.
+
+---
+
+# Assumptions Made
+
+* Data provided was assumed to be mostly clean.
+* Outlet IDs were considered unique.
+* Monthly and yearly fields were used for relationships.
+* KPIs were derived based on available dataset columns.
+
+---
+
+# Design Decisions
+
+* A clean and minimal UI was used for business readability.
+* Tailwind CSS was chosen for faster and responsive styling.
+* Tableau dashboards were embedded directly into React pages.
+* Consistent branding and spacing were maintained throughout the application.
+
+---
+
+# Future Improvements
+
+* Mobile optimization
+* Advanced Tableau interactions
+* Authentication and role-based access
+* Dark mode support
+* Real-time data integration
+
+---
+
+# Author
+
+Jyotsna Kumari
+
